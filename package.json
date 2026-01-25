@@ -1,4 +1,33 @@
 {
-  "name":"web-qa-automation-framework",
-  "private":true
+  "name": "web-qa-automation-framework",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Project Overview - \r This project is a Web UI test automation framework created to automate core user flow of a demo e-commerce web site using - https://www.saucedemo.com/.The goal of this project is to demonstrate practical QA automation skills, including test design, framework structure, and best practices using Playwright with TypeScript.\r Application Under Test - Demo e-commerce web application - https://www.saucedemo.com/.\r Main flows:\r - Authentication (login with valid/invalid credentials,logout)\r - Product Catalog (view products, sort,open details)\r - Cart (add items,remove items)\r - Checkout",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mariia2208/web-qa-automation-framework.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/Mariia2208/web-qa-automation-framework/issues"
+  },
+  "homepage": "https://github.com/Mariia2208/web-qa-automation-framework#readme",
+  "devDependencies": {
+    "-": "^0.0.1",
+    "@playwright/test": "^1.57.0",
+    "node": "^24.12.0",
+    "playwright": "^1.57.0",
+    "ts": "^0.2.2",
+    "typescript": "^5.9.3"
+  }
 }
